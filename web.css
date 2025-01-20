@@ -1,0 +1,74 @@
+*{
+    padding: 0; margin: 0;
+}
+
+body{
+    background-image:  url("https://wallpaperaccess.com/full/37368.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+
+
+#cont{
+    height: 30vh;
+    width: 65vw;
+    margin: 20vh 0vw 0vh 5vw;
+}
+#quote{
+    font-size: 3.5rem;
+    font-family: serif;
+    
+} 
+#saidBy{
+    font-size: 2rem;
+    font-family:'Trebuchet Ms';
+    display: flex;
+    justify-content: end;
+    margin-right: 15%;
+}
+
+
+#cookies{
+    height: 30vh;
+    width: 30vw;
+    border: 3px solid wheat;
+    border-radius: 1.5em;
+    font-size: 1.5rem;
+    background-color: rgb(32, 39, 51);
+    padding: 1rem;
+    opacity: 0.9;;
+    position:sticky;
+    top: 100vh; left: 35vw;
+    z-index: 2;
+    animation: position 2.5s ease-in; 
+
+}
+#cookiesHead{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+#buttonFirst{
+    height: 7vh; width: 10vw;
+    font-size: 1.5rem;   
+    margin: 1.5em;
+    color: aliceblue; background-color: black;
+    border-radius: .5em;
+}
+#buttonSecond{
+    height: 7vh; width: 10vw;
+    font-size: 1.5rem; 
+    margin: 1.5em;
+    color: aliceblue; background-color: black;
+    border-radius: .5em;
+    
+}
+
+@keyframes position {
+    from{
+        transform: translateY(100vh);
+    }
+    to{
+        transform: translateY(0vh);
+    }
+}
