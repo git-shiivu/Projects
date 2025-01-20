@@ -2,13 +2,6 @@
     padding: 0; margin: 0;
 }
 
-body{
-/*     background-image:  url("https://wallpaperaccess.com/full/37368.jpg"); */
-    background-size: cover;
-    color: aliceblue;
-}
-
-
 #cont{
     height: 30vh;
     width: 65vw;
